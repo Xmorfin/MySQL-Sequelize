@@ -1,0 +1,11 @@
+GET "http://localhost:5000/movies"
+
+###
+POST "http://localhost:5000/movies"
+Content-Type: application/json
+
+{
+    "title": "Black Adam",
+    "release": "2022",
+    "rating": "8"
+}
